@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/ArjunVenatPicture.JPG"
+              src="/ArjunVenatPicture.png"
               alt="Arjun portrait"
               width="1000"
               height="1000"
