@@ -58,7 +58,7 @@ export const experiencesData = [
     location: "Worcester, MA",
     description:
       "Pioneered a credit redistribution mechanism with significant anticipated impact toward equity for future exchanges between nonprofit organizations (NPOs). Used Python to build a simulation of how the non-profits would interact in the exchange platform.",
-    icon: React.createElement(LuGraduationCap),
+    icon: React.createElement(CgWorkAlt),
     date: "May 2023 - August 2023",
   },
 ] as const;
