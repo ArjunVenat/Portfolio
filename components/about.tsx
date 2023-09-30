@@ -19,30 +19,20 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
+        I am an undergraduate student at{" "}<span className="font-medium">
+        Worcester Polytechnic Institute</span> studying{" "}<span className="font-medium">
+        Computer Science </span> and <span className="font-medium"> Data Science</span>.
+        I am interested in the intersection between Mathematics and Software. These interests include <span className="underline">Machine Learning</span> and <span className="underline">Interactive Optimization</span>, which is using Human-Computer Interaction to enhance the flexibility of an optimization model. 
+        My favorite part of programming is building a unique project from the ground up and watching it come to life.
+        My core stack is{" "} <span className="font-medium"> Python, Flask, React, Next.js, and AWS. </span>
+        {" "}<span> </span> I am currently looking for a{" "}
+        <span className="font-medium">summer internship</span> as a software
         developer.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        When I am not coding, I enjoy studying photography, 
+        watching movies, and playing volleyball.
       </p>
     </motion.section>
   );
