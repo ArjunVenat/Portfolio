@@ -37,14 +37,6 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "BS in Computer Science and Data Science at WPI",
-    location: "Worcester, MA",
-    description:
-      "Currently pursuing a Bachelor of Science degree in Computer Science and Data Science at Worcester Polytechnic Institute. ",
-    icon: React.createElement(LuGraduationCap),
-    date: "August 2021 -",
-  },
-  {
     title: "Summer Intern",
     location: "Bridgewater, NJ",
     description:
