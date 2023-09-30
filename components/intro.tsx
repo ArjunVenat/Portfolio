@@ -51,7 +51,7 @@ export default function Intro() {
         <span className="font-bold">Hello, I'm Arjun.</span> I'm a{" "}
         <span className="font-bold">student at Worcester Polytechnic Institute</span> looking{" "}
         <span className="font-bold">for Software Engineering and Data Science</span> roles. I enjoy
-        building <span className="underline">full stack applications, data visualizations, and APIs</span>.
+        building full stack applications, data visualizations, and APIs.
       </motion.h1>
 
       <motion.div
