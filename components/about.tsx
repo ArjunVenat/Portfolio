@@ -24,10 +24,7 @@ export default function About() {
         Computer Science </span> and <span className="font-medium"> Data Science</span>.
         I am interested in the intersection between Mathematics and Software. These interests include <span className="underline">Machine Learning</span> and <span className="underline">Interactive Optimization</span>, which uses Human-Computer Interaction to enhance the flexibility of an optimization model. 
         My favorite part of programming is building a unique project from the ground up and watching it come to life.
-        My core stack is{" "} <span className="font-medium"> Python, Flask, React, Next.js, and AWS. </span>
-        {" "}<span> </span> I am currently looking for a{" "}
-        <span className="font-medium">summer internship</span> as a software
-        developer.
+        My core stack is{" "} <span className="font-medium"> Python, Flask, React.js, Express.js, and AWS. </span>
       </p>
 
       <p>

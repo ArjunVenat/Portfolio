@@ -7,7 +7,8 @@ import IQPReport from "@/public/IQPReport.png"
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 import tctImg from "@/public/tct.png";
-
+import BWHImg from "@/public/BWHwebsite.png"
+import MTCImg from "@/public/MTCPage.png"
 export const links = [
   {
     name: "Home",
@@ -18,16 +19,16 @@ export const links = [
     hash: "#about",
   },
   {
+    name: "Experience",
+    hash: "#experience",
+  },
+  {
     name: "Projects",
     hash: "#projects",
   },
   {
     name: "Skills",
     hash: "#skills",
-  },
-  {
-    name: "Experience",
-    hash: "#experience",
   },
   {
     name: "Contact",
@@ -60,37 +61,47 @@ export const experiencesData = [
       "Pioneered a credit redistribution mechanism with significant anticipated impact toward equity for future exchanges between nonprofit organizations (NPOs). Used Python to build a simulation of how the non-profits would interact in the exchange platform.",
     icon: React.createElement(CgWorkAlt),
     date: "May 2023 - August 2023",
-  },
+  }
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Software Engineering Project",
+    description:
+      "Collaboration between WPI and the hospital to build a full-stack application for hospital kiosks which is used by guests for navigation information as well as hospital staff for service requests.",
+    tags: ["React.js", "Prisma ORM", "Express.js", "AWS"],
+    imageUrl: BWHImg,
+  },
+  {
+    title: "MTC Scheduler for Math Department",
+    description:
+      "Developed a full-stack application for the university’s Math Tutoring Center, which is projected to save the math department 14 hours of administrative work per semester.",
+    tags: ["Python", "Flask", "React.js", "Gurobi"],
+    imageUrl: MTCImg,
+  },
   {
     title: "WPI Interactive Qualifying Project",
     description:
       "Collected and analyzed data to deliver a report on how Strætó bs can integrate UN Sustainable Development Goals into their operations.",
     tags: ["Tableau, Data Collection, Research, Graphic Design"],
     imageUrl: IQPReport,
-  },
-  {
-    title: "Team Comp Tailor",
-    description:
-      "A gaming software API which uses Integer Optimization with the Gurobi solver engine to determine the best possible board for the user to play.",
-    tags: ["Python", "Flask", "React.js", "Next.js", "Gurobi"],
-    imageUrl: tctImg,
-  },
+  }  
 ] as const;
 
 export const skillsData = [
   "Python",
-  "Tableau",
   "Java",
   "React.js",
   "AWS",
   "SQL",
+  "Typescript",
   "Gurobi",
   "PyTorch",
+  "Tableau",
+  "REST APIs",
+  "Tailwind CSS",
+  "Flask",
   "Docker",
   "Android Studio",
   "R",
-  "Raspberry Pi",
 ] as const;
