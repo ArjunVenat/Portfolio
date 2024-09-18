@@ -50,8 +50,8 @@ export default function Intro() {
       >
         Hello, I'm <span className="font-bold">Arjun.</span> I'm an 
         <span className="font-bold"> undergraduate student</span> at <span className="font-bold"> 
-        Worcester Polytechnic Institute</span> looking for <span className="font-bold"> Software Engineering and Data Science</span> roles. 
-        I enjoy building full stack applications, data visualizations, and APIs.
+        Worcester Polytechnic Institute</span> interested in <span className="font-bold"> Software Engineering and Data Science</span> roles. 
+        I enjoy building full stack applications, DevOps/MLOps pipelines, data visualizations, and APIs.
       </motion.h1>
 
       <motion.div

@@ -22,14 +22,14 @@ export default function About() {
         I am an undergraduate student at{" "}<span className="font-medium">
         Worcester Polytechnic Institute</span> studying{" "}<span className="font-medium">
         Computer Science </span> and <span className="font-medium"> Data Science</span>.
-        I am interested in the intersection between Mathematics and Software. These interests include <span className="underline">Machine Learning</span> and <span className="underline">Interactive Optimization</span>, which uses Human-Computer Interaction to enhance the flexibility of an optimization model. 
+        I am especially interested in the intersection between Mathematics and Software. These interests include <span className="underline">Machine Learning</span> and <span className="underline">Interactive Optimization</span>, which uses Human-Computer Interaction to enhance the flexibility of an optimization model. 
         My favorite part of programming is building a unique project from the ground up and watching it come to life.
-        My core stack is{" "} <span className="font-medium"> Python, Flask, React.js, Express.js, and AWS. </span>
+        My core stack is{" "} <span className="font-medium"> Python Flask, Node.js, React.js, PostgreSQL, and AWS. </span>
       </p>
 
       <p>
         When I am not coding, I enjoy studying photography, 
-        watching movies, and playing volleyball.
+        watching movies, and hiking.
       </p>
     </motion.section>
   );
