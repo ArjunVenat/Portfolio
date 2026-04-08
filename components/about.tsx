@@ -19,17 +19,17 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I am an undergraduate student at{" "}<span className="font-medium">
-        Worcester Polytechnic Institute</span> studying{" "}<span className="font-medium">
+        I am a Software Engineer at {" "}<span className="font-medium">
+        ADP </span> with a background in {" "}<span className="font-medium">
         Computer Science </span> and <span className="font-medium"> Data Science</span>.
-        I am especially interested in the intersection between Mathematics and Software. These interests include <span className="underline">Machine Learning</span> and <span className="underline">Interactive Optimization</span>, which uses Human-Computer Interaction to enhance the flexibility of an optimization model. 
-        My favorite part of programming is building a unique project from the ground up and watching it come to life.
-        My core stack is{" "} <span className="font-medium"> Python Flask, Node.js, React.js, PostgreSQL, and AWS. </span>
+        I'm drawn to the intersection of mathematics and software engineering, with a particular interest in <span className="font-medium">system design</span> and building reliable, scalable backend infrastructure. 
+        My favorite part of engineering is architecting a solution from the ground up — thinking through the tradeoffs, designing for scale, and watching a well-structured system come to life.
+        My core stack is{" "} <span className="font-medium"> Python, Go, Node.js, React.js, PostgreSQL, and AWS. </span>
       </p>
 
       <p>
-        When I am not coding, I enjoy studying photography, 
-        watching movies, and hiking.
+        When I am not coding, I enjoy homelabbing, studying photography, 
+        watching movies, and playing pickleball.
       </p>
     </motion.section>
   );

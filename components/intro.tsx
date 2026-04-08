@@ -49,9 +49,8 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         Hello, I'm <span className="font-bold">Arjun.</span> I'm an 
-        <span className="font-bold"> undergraduate student</span> at <span className="font-bold"> 
-        Worcester Polytechnic Institute</span> interested in <span className="font-bold"> Software Engineering and Data Science</span> roles. 
-        I enjoy building full stack applications, DevOps/MLOps pipelines, data visualizations, and APIs.
+        <span className="font-bold"> software engineer</span> at <span className="font-bold"> 
+        ADP</span> interested in building reliable backend infrastructure, scalable APIs, and secure software systems. 
       </motion.h1>
 
       <motion.div
